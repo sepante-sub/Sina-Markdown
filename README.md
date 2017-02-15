@@ -1,22 +1,16 @@
-Author Carpentry : Lesson Template
+Author Carpentry : Sustainable Authorship with Markdown and Pandoc
 =======
 
-A description of the lesson goes here.  If you're reading this on the github
-repo, you see the rendered lesson at:
+*Content Contributors: Sebastian Karcher*
 
-http://authorcarpentry.github.io/lesson-template-mkpage
-
-This template is inspired by the software and data carpentry templates, 
-but it employs the mkpage site generation tool as an alternative
-to Jekyll.  Full usage information is at the bottom of the page.
-
-**Content Contributors: Name **
-
-
-**Lesson Maintainers: Name **
-
+*Lesson Maintainers: Sebastian Karcher*
 
 **Lesson status: In Development**
+
+##Learning Objectives:
+- See original lesson from Programming Historian but adapt for Author Carpentry
+  audience
+http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 
 ## Topics:
 
