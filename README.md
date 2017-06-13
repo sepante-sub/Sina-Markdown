@@ -7,7 +7,7 @@ Author Carpentry : Sustainable Authorship with Markdown and Pandoc
 
 **Lesson status: In Development**
 
-## Learning Objectives:
+## What you will learn:
 - See original lesson from Programming Historian but adapt for Author Carpentry
   audience
 http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
