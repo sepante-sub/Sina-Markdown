@@ -1,4 +1,4 @@
-#  Introduction to Reproducible Publishing
+#  Introduction to Reproducible Authorship and Publishing
 5 Minutes
 
 -------------------------
@@ -16,11 +16,23 @@
 * Install pandoc
 * Install editor?
 
-Scholarly publications are a critical part of your scientific workflow.
-How you write (word, latex, text editor) and how your publications are
-distributed (pdf from a publisher) are two separate steps. In our open
+Our lesson today will introduce a new way to write in less time, with less
+stress, and in a way that is reusable.  Take a look at this document:
+
+How long would it take to turn this document into a word document, a web page,
+and a set of slides?
+
+Open your terminal and type:
+
+
+Scholarly documents are a critical part of your academic and research workflow,
+be they lab notebooks, syllabi, papers, theses, CV's, or blog posts.
+How you write (word, latex, text editor) and how thise works are presented are
+published (pdf from a publisher) are two separate steps. In our open
 publishing workflow we're going to separate writing and formatting in two
-separate steps.  Scholarly publishing requires us to do formatting to clarify
+separate steps. 
+
+Scholarly publishing requires us to do formatting to clarify
 meaning: headings for sections, italics or bold for emphasis, quotes, tables,
 code blocks, and citations.  In an open publishing workflow these formatting
 elements can also cause behavior changes in how your documents are rendered.
