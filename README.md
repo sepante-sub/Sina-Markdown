@@ -1,7 +1,7 @@
 Author Carpentry : Sustainable Authorship with Markdown and Pandoc
 =======
 
-*Content Contributors: Sebastian Karcher*
+*Content Contributors: Sebastian Karcher, Tom Morrell, Gail Clement*
 
 *Lesson Maintainers: Sebastian Karcher*
 
@@ -14,13 +14,11 @@ http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-usi
 
 ## Topics:
 
-1. [Topic 1](00-getting-started.html)
-2. [Topic 2](01-working-with-openrefine.html)
-3. [Topic 3](02-scripts.html)
-4. [Topic 4](03-save-export.html)
-
-### Optional
-- [Topic 5](04-services.html)
+1. [Introduction](00-getting-started.html)
+2. [Basic Markdown](01-markdown-display.html)
+3. [Advanced Markdown](02-markdown-behavior.html)
+4. [Citations](03-citation.html)
+5. [Multiple Outputs](04-multiple-outputs.html)
 
 ## Data
 
