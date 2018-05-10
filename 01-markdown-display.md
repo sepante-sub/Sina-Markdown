@@ -10,7 +10,12 @@
 * Learn the syntax for all important formatting in markdown
 * Learn how markdown relates to html
 
+Scholarly publishing requires us to do formatting to clarify
+meaning: headings for sections, italics or bold for emphasis, quotes, tables,
+code blocks, and citations. Specific tags are needed to identify these
+segments.
 
+Teach headings, italics, bold, quotes, tables, code blocks, images
 
 ----------------------------------------------------
 ## Creating a Markdown Document

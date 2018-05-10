@@ -6,11 +6,9 @@
 
 ## Learning Objectives
 
-* Create a local markdown document and take advantage of Atom as a md editor
-* Learn the syntax for all important formatting in markdown
-* Learn how markdown relates to html
-
-
+* Understand how to add citations to a document
+* Look at modifications of a citation style
+* Generate a reference list
 
 ----------------------------------------------------
 ## Creating a Markdown Document

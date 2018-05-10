@@ -24,6 +24,9 @@ and a set of slides?
 
 Open your terminal and type:
 
+```
+pandoc
+```
 
 Scholarly documents are a critical part of your academic and research workflow,
 be they lab notebooks, syllabi, papers, theses, CV's, or blog posts.
@@ -32,20 +35,24 @@ published (pdf from a publisher) are two separate steps. In our open
 publishing workflow we're going to separate writing and formatting in two
 separate steps. 
 
-Scholarly publishing requires us to do formatting to clarify
-meaning: headings for sections, italics or bold for emphasis, quotes, tables,
-code blocks, and citations.  In an open publishing workflow these formatting
-elements can also cause behavior changes in how your documents are rendered.
+There are four skills that are needed to make this workflow function:
 
-Here are some examples of this workflow being successful...
+1. Add formatting into the text.
+2. Formatting elements can change the document structure.  
+3. Specific formatting can manage citations and automatically produce reference lists.
+4. A single document can be organized such that it can generate multiple
+output.
 
-Run a demo document and get an output...
-If problems, handle in break after  basic markdown...
-How long would this have taken with a traditional word processor or presentation
-program?
+Introduce plain text version of the example.  Exercise!  What might we need to do to make this text into
+the formatted version?  
 
-By the end of the lesson you should have skills to write a document like this
-and generate formatted results.
+1. Find formatting
+2. Find date
+3. Find a citation
+4. What do you need to make slides?
+
+By the end of the workshop you'll have modified the text so that it can
+generate multiple outputs.
 
 ## Resources
 * A

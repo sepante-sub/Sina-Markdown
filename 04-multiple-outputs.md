@@ -6,11 +6,7 @@
 
 ## Learning Objectives
 
-* Create a local markdown document and take advantage of Atom as a md editor
-* Learn the syntax for all important formatting in markdown
-* Learn how markdown relates to html
-
-
+* Take one document and use it to generate slides
 
 ----------------------------------------------------
 ## Creating a Markdown Document
