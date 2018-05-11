@@ -1,7 +1,6 @@
 ---
 author: "Mark Down"
 title: "Authoring: FUN"
-output: slidy_presentation
 ---
 
 Crib text for each section from the [pandoc markdown manual](http://pandoc.org/MANUAL.html#character-encoding)
