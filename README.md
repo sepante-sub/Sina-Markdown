@@ -1,7 +1,7 @@
 Author Carpentry : Sustainable Authorship with Markdown and Pandoc
 =======
 
-*Content Contributors: Sebastian Karcher, Tom Morrell, Gail Clement*
+*Content Contributors: Sebastian Karcher, Tom Morrell, Gail Clement, Patrick Koppula*
 
 *Lesson Maintainers: Sebastian Karcher*
 
