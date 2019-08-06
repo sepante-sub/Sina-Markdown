@@ -5,7 +5,7 @@
 
 ## Learning Objectives
 
-* Use the basic markdown formatting to change document appearance
+* Apply basic markdown syntax to change document appearance
 * Describe how formatting can change document properties
 * Show how to dynamically generate citations for a document
 * Know how to generate multiple formats from a single written text
