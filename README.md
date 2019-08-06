@@ -3,22 +3,21 @@ Author Carpentry : Sustainable Authorship with Markdown and Pandoc
 
 *Content Contributors: Sebastian Karcher, Tom Morrell, Gail Clement, Patrick Koppula*
 
-*Lesson Maintainers: Sebastian Karcher*
+*Lesson Maintainers: Gail Clement*
 
 **Lesson status: In Development**
 
 ## What you will learn:
-- See original lesson from Programming Historian but adapt for Author Carpentry
-  audience
-http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
+- 
+Credit: This lesson idea was inspired by the Sustainable Authorship lesson developed and delivered by Programming Historian: http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown. AuthorCarpentry instructors are adapting it as a prerequisite module for our Reproducible Reporting curriculum.
+
 
 ## Topics:
 
-1. [Introduction](00-getting-started.html)
-2. [Basic Markdown](01-markdown-display.html)
-3. [Advanced Markdown](02-markdown-behavior.html)
-4. [Citations](03-citation.html)
-5. [Multiple Outputs](04-multiple-outputs.html)
+1. [Introduction: Why Author in Plain Text?](00-getting-started.html)
+2. [Markdown Basics](01-markdown-display.html)
+3. [Pandoc Basics](02-pandoc.html)
+
 
 ## Data
 
