@@ -3,16 +3,18 @@ title: "My Data Management Plan"
 author: "Gail Clement"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
-  html_document: 
-    toc: TRUE
-    toc_float: TRUE
-    toc_depth: 2
-    number_sections: true
-    theme: journal
-    highlight: tango
+  word_document:
+    toc: yes
+    toc_depth: '2'
+  html_document:
+    fig_height: 3
     fig_width: 1
-    fig_height: 3 
-#bibliography: references.bib  
+    highlight: tango
+    number_sections: yes
+    theme: journal
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
 ---
 
 ```{r read-usgs-data, echo =FALSE}
@@ -114,7 +116,9 @@ delimited text format to ensure accessibility of the data by other
 software programs. 
     a. The data manager at the NMISC will be responsible for the management of long-term storage and archived data.
     
-# Appendix: Supplementary data {-}
+# Appendixes {-}
+
+## Supplementary data {-}
 
 
 ```{r usgs-data-table, echo = TRUE}
@@ -122,5 +126,17 @@ str(usgs)
 
 ```
 
-# References {-}
 
+
+### Distribution rights {-}
+
+```{r creative-commons-license, include=FALSE}
+# Point your browser to the Creative Commons website at https://creativecommons.org/choose/
+# Answer the questions on the page
+# Copy the HTML code for the license you have selected below this code chunk
+# Knit to HTML to see the final report with an open access license enabling wide distribution and sharing!
+```
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">My Data Management Plan</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://authorcarpentry.github.io/markdown-pandoc-Gail/" property="cc:attributionName" rel="cc:attributionURL">Gail Clement</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+# References {-}
