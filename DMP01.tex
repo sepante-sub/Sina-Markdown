@@ -1,0 +1,184 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={DMP Version 1},
+            pdfauthor={Sina Sajjadi},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{DMP Version 1}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{Sina Sajjadi}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{8/5/2019}
+
+
+\begin{document}
+\maketitle
+
+Data Management Plan: Rio Grande Basin Hydrologic Geodatabase
+Compendium.
+
+\section{1. Types of Data Produced}\label{types-of-data-produced}
+
+This project will result in the production of a relational
+spatially-enabled database integrating all known surface water, ground
+water, and water quality data for the middle Rio Grande basin study
+area. Additionally, Visual Basic for Applications (VBA) code and
+Structured Query Language (SQL) code are products of the project. All
+updateable datasets are acquired from the original data source (for
+example, EPA websites). Updatable data sources are acquired at specified
+intervals -- quarterly, or as needed. As new static data sources are
+discovered, they will be integrated into the proposed compendium. Data
+will be processed using dataset‐specific VBA programs. Program file
+comment headers will be included in the code to explain required input
+variables, purpose of the program, and requirements needed by the user.
+Code will be annotated to promote code readability.
+
+\section{2. Data and Metadata
+Standards}\label{data-and-metadata-standards}
+
+Microsoft Access Database format will be used since it is
+readily-accessible and it is compatible with ESRI ArcGIS
+(\url{http://www.esri.com/software/arcgis/index.html}), a Geographic
+Information System software package used by the stakeholders. Naming
+conventions will be consistent -- no spaces will be used in table names
+or field names. The file naming convention will consist of the data
+source\_data type format for raw data files. Data reporting
+functionality will be built into the VBA processing programs to provide
+output in .txt file format for number of records per source when
+updatable data sources are refreshed.
+
+Every effort will be made to go back to the authoritative source for an
+identified dataset. Quality control of the database will be performed
+using SQL statements that capitalize on the database structure to ensure
+relational database integrity. Appropriate primary keys will be assigned
+to manage possible data duplicates. Potential duplicate site IDs, will
+be handled through automated procedures and the creation of alternate ID
+tables.
+
+A data dictionary will be created that defines the table definition,
+table fields, and table field data types. An entity-relationship diagram
+will be created that defines the relational structure of the database. A
+metadata record will be produced using the FGDC standard that describes
+the entire geodatabase.
+
+The FGDC standard was chosen due to required Federal government
+standards.
+
+\section{3. Policies for Access and
+Sharing}\label{policies-for-access-and-sharing}
+
+The data are public and will be obtainable thru the New Mexico
+Interstate Stream Commission (NMISC). Users of the data will primarily
+be water resource managers in the Rio Grande Basin. USGS publications
+will be released describing the methods and data sources and can be used
+as documentation for the data and to cite the data.
+
+\section{4. Policies for Re-use,
+Distribution}\label{policies-for-re-use-distribution}
+
+Access to databases and associated software tools generated under the
+project will be available for educational, research and non-profit
+purposes. Such access will be provided using web-based applications, as
+appropriate.
+
+Materials generated under the project will be disseminated in accordance
+with University/Participating institutional and NSF policies. Depending
+on such policies, materials may be transferred to others under the terms
+of a material transfer agreement.
+
+The data files have a suggested citation, which will be described in the
+metadata in addition to the USGS publications.
+
+\section{5. Plans for Archiving and
+Preservation}\label{plans-for-archiving-and-preservation}
+
+All original raw data files and data source processing programs will be
+versioned over time and maintained in a date-stamped file structure with
+text files documenting the provenance. The database will be preserved in
+perpetuity, housed initially at the New Mexico Interstate Stream
+Commission Central Office in addition to an off-site copy maintained at
+an NMISC field office and mirrored at the Consortium of Universities for
+the Advancement of Hydrologic Science (CUAHSI). We will also identify
+appropriate archiving institutions that might serve as a mirror
+repository. A data policy and stewardship plan will be established. In
+addition to archiving, each database table will be exported to a
+delimited text format to ensure accessibility of the data by other
+software programs. The data manager at the NMISC will be responsible for
+the management of long-term storage and archived data.
+
+
+\end{document}
